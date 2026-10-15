@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
@@ -558,7 +557,17 @@ export default function Home() {
             <a href="#contact" className="hover:text-[#dfbd83]">Contact</a>
           </div>
 
-          <p className="text-xs text-gray-500">© 2026 FurniLux. All rights reserved.</p>
+          <p className="text-xs text-gray-500">
+            © 2026 FurniLux. All rights reserved. | Made by{" "}
+            <a
+              href="https://portfolio-self-nine-93.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#dfbd83] hover:text-[#e7c78d] font-semibold transition-colors"
+            >
+              Tech Buddies
+            </a>
+          </p>
         </div>
       </footer>
 
